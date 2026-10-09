@@ -3,6 +3,7 @@ mod db;
 mod health;
 mod copies;
 mod members;
+mod loans;
 
 use std::error::Error;
 use tokio::net::TcpListener;

@@ -19,6 +19,12 @@ export default async function HomePage() {
         >
           View members
         </Link>
+        <Link
+          href="/loans"
+          className="ml-4 inline-block text-blue-700 underline"
+        >
+          View loans
+        </Link>
 
         <BookForm />
 
