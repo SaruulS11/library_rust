@@ -1,0 +1,12 @@
+{
+  "name": "library-system",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm -r --parallel run dev",
+    "dev:backend": "pnpm --filter @library/backend run dev",
+    "dev:frontend": "pnpm --filter @library/frontend run dev",
+    "check": "pnpm -r run check"
+  },
+  "packageManager": "pnpm@10.34.6"
+}
